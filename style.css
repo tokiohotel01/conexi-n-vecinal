@@ -1,0 +1,83 @@
+/* Estilo básico */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    }
+    
+    /* Encabezado */
+    header {
+    background-color: #2B3A67;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+    
+    header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    }
+    
+    nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    }
+    
+    nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+    }
+    
+    nav ul li a:hover {
+    color: #4C5B7B;
+    }
+    
+    /* Banner principal */
+    .banner {
+    background-color: #4C5B7B;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    }
+    
+    /* Sección */
+    section {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    
+    /* Botones */
+    .btn-primario {
+    background-color: #2B3A67;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    }
+    
+    .btn-primario:hover {
+    background-color: #1A2B4F;
+    }
+    
+    /* Pie de página */
+    footer {
+    background-color: #2B3A67;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    }

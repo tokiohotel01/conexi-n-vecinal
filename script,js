@@ -1,0 +1,16 @@
+// Script básico para el formulario de ayuda
+document.getElementById('form-ayuda').addEventListener('submit', function(event) {
+event.preventDefault(); // Evitar el envío del formulario
+
+const inputAyuda = event.target.querySelector('input');
+const nuevaAyuda = inputAyuda.value;
+
+// Agregar el nuevo elemento a la lista
+const listaAyuda = document.getElementById('lista-ayuda');
+const nuevoElemento = document.createElement('li');
+nuevoElemento.textContent = nuevaAyuda;
+listaAyuda.appendChild(nuevoElemento);
+
+// Limpiar el campo de entrada
+inputAyuda.value = '';
+});
